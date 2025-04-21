@@ -1,53 +1,64 @@
 variable "resource_group_name" {
-    type = string
   
+  type = string
+
 }
 
 variable "network_security_group_name" {
-    type = string
   
+  type = string
+
 }
 
 variable "name" {
-    type = string
   
+  type = string
+
 }
 
 variable "priority" {
+  
   type = string
 }
 
 variable "direction" {
-    type = string
   
+  type = string
+
 }
 
 variable "access" {
-    type = string
   
+  type = string
+
 }
 
 variable "protocol" {
-    type = string
   
+  type = string
+
 }
 
 variable "source_port_range" {
-    type = string
   
+  type = string
+
 }
 
 variable "destination_port_range" {
-    type = string
-  
+ 
+  type = string
+
 }
 
 variable "source_address_prefix" {
-    type = string
-  
+ 
+  type = string
+
 }
 
 variable "destination_address_prefix" {
-    type = string
-  
+ 
+  type = string
+
 }

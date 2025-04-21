@@ -1,3 +1,5 @@
 output "subnet" {
- value = azurerm_subnet.subnet
+
+  value = azurerm_subnet.subnet
+  
 }

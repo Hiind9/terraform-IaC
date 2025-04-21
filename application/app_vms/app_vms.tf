@@ -16,7 +16,7 @@ resource "azurerm_linux_virtual_machine" "virtual_machine" {
     caching              = var.os_disk_caching
     storage_account_type = var.os_disk_storage_account_type
   }
-  
+
   computer_name = var.computer_name
 
   source_image_reference {

@@ -1,82 +1,86 @@
 variable "server_name" {
 
-    type = string
-    
+  type = string
+
 }
 
 variable "resource_group_name" {
 
-    type = string
+  type = string
 
 }
 
 variable "location" {
 
-    type = string
+  type = string
 
 }
 
 variable "server_version" {
 
-    type = string
+  type = string
 }
 
 variable "username" {
 
-    type = string
+  type = string
 
 }
 
 variable "password" {
-    type = string
+  type = string
 }
 
 
 variable "sql_database_name" {
-    type = string
+  
+  type = string
 }
 
 variable "license_type" {
 
-    default = "BasePrice"
+  default = "BasePrice"
 }
 
 variable "collation" {
 
-    type = string
+  type = string
 
-    default = "SQL_Latin1_General_CP1_CI_AS"
-  
+  default = "SQL_Latin1_General_CP1_CI_AS"
+
 }
 
 variable "storage_account_type" {
 
-    type = string
-    default = "Local"
-  
+  type    = string
+
+  default = "Local"
+
 }
 
 
 variable "dbsize" {
-    type = string
+  
+  type = string
 }
 
 variable "sku_name" {
 
-    default = "Basic"
+  default = "Basic"
 }
 
 variable "zone_redundant" {
 
-    default = false
-    type = bool
+  default = false
   
+  type    = bool
+
 }
 
 variable "geo_backup_enabled" {
 
-    default = false
+  default = false
 
-    type = bool
-  
+  type = bool
+
 }

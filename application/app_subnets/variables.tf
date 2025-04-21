@@ -6,24 +6,24 @@ variable "name" {
 
 variable "resource_group_name" {
 
- description = "resource_group_name"
+  description = "resource_group_name"
 
- type = string
+  type = string
 
 }
 
 variable "vnet_name" {
 
- description = "vnet_name"
+  description = "vnet_name"
 
- type = string
+  type = string
 
 }
 
 variable "address_prefixes" {
-  
+
   description = "address_prefixes"
 
-  default     = []
+  default = []
 
 }

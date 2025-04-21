@@ -4,7 +4,7 @@ module "rg" {
 
   name = "${local.prefix}-rg"
 
-  location = "uae north"
+  location = "uae north" #put your prefered region 
 
 }
 
@@ -126,9 +126,9 @@ module "sql_db" {
 
   location = module.rg.resource_group.location
 
-  username = "azureuser"
+  username = "azureuser" #default name, you can use your name
 
-  password = "Hind-1231234"
+  password = "Hind-1231234" #use a strong password
 
   server_name = "${local.prefix}-sql"
 
@@ -165,7 +165,7 @@ module "virtual_machine" {
 
   vm_size = "Standard_D2s_v3"
 
-  username = "azureuser"
+  username = "azureuser" #default name, you can use your name
 
   nic_id = module.nics[each.value.nic].nic.id
 

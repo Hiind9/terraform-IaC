@@ -1,18 +1,18 @@
 variable "name" {
 
- description = "name"
+  description = "name"
 
 }
 
 variable "location" {
 
- description = "location"
+  description = "location"
 
 }
 variable "tags" {
 
- description = "tags"
+  description = "tags"
 
- default     = null
+  default = null
 
 }

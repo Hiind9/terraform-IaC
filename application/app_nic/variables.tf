@@ -1,58 +1,58 @@
 variable "nic_name" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "location" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "ip_configuration_name" {
 
-    type = string
-  
+  type = string
+
 }
 
 
 variable "private_ip_address_allocation" {
 
-    type = string
+  type = string
 
-    default = "Dynamic"
-  
+  default = "Dynamic"
+
 }
 
 
 variable "subnet_id" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "tags" {
 
-    type = any
+  type = any
 
-    default = {}
-  
+  default = {}
+
 }
 
 variable "resource_group_name" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "public_ip_address_id" {
 
-    type = string
-  
+  type = string
+
 }
 variable "network_security_group_id" {
 
-    type = string
-  
+  type = string
+
 }

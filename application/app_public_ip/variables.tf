@@ -1,34 +1,34 @@
 variable "public_ip_address_name" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "location" {
 
-     type = string
-  
+  type = string
+
 }
 
 variable "resource_group_name" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "ip_allocation_method" {
 
-    type = string
-  
+  type = string
+
 }
 
 variable "tags" {
 
-    default = {}
-  
+  default = {}
+
 }
 
 variable "sku" {
-    
-    type = string
+
+  type = string
 }

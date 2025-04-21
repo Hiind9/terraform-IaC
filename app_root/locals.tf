@@ -1,6 +1,6 @@
 locals {
 
-  prefix = "devops2-hind-app"
+  prefix = "devops2-hind-app" #put you perfered name, we will use it for all resource names
 
   tags = {
     bootcamp = "DevOps2"
@@ -21,7 +21,7 @@ locals {
   }
 
   nsg_rule = {
-    allow_ssh = {
+    allow_ssh = { #name of rule 
 
 
       priority                   = 1001
@@ -52,7 +52,7 @@ locals {
 
   }
 
-  public_ips = {
+  public_ips = { #Here we are using public ips for ssh connection
     backend_ip = {
 
       allocation_method = "Dynamic"
