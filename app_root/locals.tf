@@ -49,19 +49,7 @@ locals {
 
     }
 
-    allow_3000 = {
 
-
-      priority                   = 1003
-      direction                  = "Inbound"
-      access                     = "Allow"
-      protocol                   = "Tcp"
-      source_port_range          = "*"
-      destination_port_range     = "3000"
-      source_address_prefix      = "*"
-      destination_address_prefix = "*"
-
-    }
   }
 
   public_ips = {
