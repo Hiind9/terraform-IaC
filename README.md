@@ -1,1 +1,1 @@
-# terraform-IaC
+# terraform-IaC to create 2 VMs and DataBase
