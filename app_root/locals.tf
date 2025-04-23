@@ -49,7 +49,7 @@ locals {
 
     }
 
-    allow_3000 {
+    allow_3000 = {
 
       priority                   = 1003
       direction                  = "Inbound"
